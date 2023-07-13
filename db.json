@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "athar",
+      "name": "Athar Hossain",
+      "password": "Athar@123",
+      "email": "a1@pwc.com",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true,
+      "imgurl": "https://cdn-icons-png.flaticon.com/512/2206/2206368.png"
+    },
+    {
+      "id": "admin",
+      "name": "Athar admin",
+      "password": "Athar@123",
+      "email": "a@pwc.com",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true,
+      "imgurl": "https://cdn-icons-png.flaticon.com/512/2206/2206368.png"
+    },
+    {
+      "id": "test1",
+      "name": "Test",
+      "password": "Test@123",
+      "email": "test1@1.com",
+      "gender": "female",
+      "role": "user",
+      "menu": "cust",
+      "isActive": true,
+      "imgurl": "https://cdn-icons-png.flaticon.com/512/2206/2206368.png"
+    },
+    {
+      "id": "test2",
+      "name": "Testing",
+      "password": "Test@123",
+      "email": "test3@3.com",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true,
+      "imgurl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+    },
+    {
+      "id": "test2",
+      "name": "Testing",
+      "password": "Test@123",
+      "email": "test3@3.com",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true,
+      "imgurl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+    },
+    {
+      "id": "test2",
+      "name": "Testing",
+      "password": "Test@123",
+      "email": "test3@3.com",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true,
+      "imgurl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+    },
+    {
+      "id": "admin1",
+      "name": "Admin Test",
+      "password": "Test@123",
+      "email": "test@1.com",
+      "gender": "female",
+      "role": "",
+      "isActive": false,
+      "imgurl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "cust",
+      "name": "Customer"
+    }
+  ],
+  "roleAccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveEdit": true,
+      "haveAdd": true,
+      "haveDelete": true
+    },
+    {
+      "role": "User",
+      "menu": "user",
+      "haveEdit": true,
+      "haveAdd": true,
+      "haveDelete": false
+    },
+    {
+      "role": "tech",
+      "menu": "cust",
+      "haveEdit": false,
+      "haveAdd": true,
+      "haveDelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 2,
+      "name": "Cust2",
+      "creditLimit": 1200,
+      "createdBy": "athar"
+    },
+    {
+      "id": 3,
+      "name": "Cust3",
+      "creditLimit": 1400,
+      "createdBy": "athar"
+    },
+    {
+      "id": 4,
+      "name": "Cust4",
+      "creditLimit": 1800,
+      "createdBy": "athar"
+    },
+    {
+      "id": 5,
+      "name": "Cust5",
+      "creditLimit": 1000,
+      "createdBy": "athar"
+    },
+    {
+      "createdBy": "athar",
+      "name": "Cust6",
+      "creditLimit": 1601,
+      "id": 6
+    },
+    {
+      "id": "8",
+      "name": "cust8",
+      "creditLimit": "12345",
+      "createdBy": "athar"
+    }
+  ]
+}
